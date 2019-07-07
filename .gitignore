@@ -3,3 +3,4 @@ dist/
 .cache/
 *.log
 *.lock
+.DS_Store
