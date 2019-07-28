@@ -1,0 +1,34 @@
+.img-cover {
+    background-origin: content-box;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-contain {
+    background-origin: content-box;
+    background-position: center;
+    background-size: contain;
+}
+
+.logo-pf {
+    background-image: url(../resources/images/logo-pf.svg);
+    width: 100px;
+}
+
+.middle-bg-1 {
+    background-image: url(../resources/images/startup-tech-challenge-2nd.png);
+    width: 100%;
+    height: 480px;
+    @media screen and (max-width: 768px) {
+        height: 180px;
+    }
+}
+
+.middle-bg-2 {
+    background-image: url(../resources/images/startup-tech-challenge-3rd.jpg);
+    width: 100%;
+    height: 480px;
+    @media screen and (max-width: 768px) {
+        height: 180px;
+    }
+}

@@ -1,35 +1,33 @@
-body * {
+.myungjo {
     font-family: 'chosun_ilbo_myungjo';
-    writing-mode: tb-rl;
-    margin: 0;
-    padding: 0;
 }
 
-.text {
-    font-weight: normal;
-    font-size: 5rem;
-    display: inline;
-    padding: 0.1em 0;
+.pfont-l {
+    font-family: 'peoplefont_l';
 }
 
-h1 .text, h2 .text, h3 .text {
-    background-color: rgba($color: #000000, $alpha: 0.9);
+.pfont-b {
+    font-family: 'peoplefont_b';
+}
+
+.md-tb-rl {
+    @media screen and (max-width: 768px) {
+        writing-mode: tb-rl;
+        & h1 {
+            margin: 0;
+        }
+    }
+}
+
+.border-0 {
+    border: none;
+}
+
+.nowarp {
+    white-space: nowrap;
+}
+
+.btn-register {
     color: #fff;
-}
-
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    font-size: 5rem;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
-h3 {
-    font-size: 2.5rem;
+    background-image: linear-gradient(102deg,#3c9bff,#407dfe);
 }

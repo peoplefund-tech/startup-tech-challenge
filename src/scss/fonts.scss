@@ -2,7 +2,23 @@
 @font-face {
     font-family: 'chosun_ilbo_myungjo';
     src: url('../resources/fonts/chosun_ilbo_myungjo/chosun_ilbo_myungjo.woff2') format('woff2'),
-         url('../resources/fonts/chosun_ilbo_myungjo/chosun_ilbo_myungjo.woff2') format('woff');
+         url('../resources/fonts/chosun_ilbo_myungjo/chosun_ilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'peoplefont_b';
+    src: url('../resources/fonts/peoplefont/peoplefontotfb00.woff2') format('woff2'),
+         url('../resources/fonts/peoplefont/peoplefontotfb00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'peoplefont_l';
+    src: url('../resources/fonts/peoplefont/peoplefontotfl00.woff2') format('woff2'),
+         url('../resources/fonts/peoplefont/peoplefontotfl00.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
