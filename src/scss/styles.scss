@@ -29,5 +29,8 @@
 
 .btn-register {
     color: #fff;
-    background-image: linear-gradient(102deg,#3c9bff,#407dfe);
+    background: linear-gradient(102deg,#3c9bff,#407dfe);
+    &:hover {
+        color: #fff;
+    }
 }

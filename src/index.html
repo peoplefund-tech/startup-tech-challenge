@@ -13,15 +13,30 @@
 <body>
     <section id="top">
         <div class="container">
-            <nav class="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <a class="navbar-brand" href="https://tech.peoplefund.co.kr">
                     <img src="./resources/images/logo-pf.svg" width="150" height="50">
                 </a>
-                <nav class="my-2 my-md-0 mr-md-3">
-                    <a class="p-2 text-dark" href="#sessions">Sessions</a>
-                    <a class="p-2 text-dark" href="#events">Events</a>
-                    <a class="ml-2 btn btn-sm btn-register pfont-l" href="#">참가 등록하기</a>
-                </nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#overview">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sessions">Sessions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Events</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline ml-md-2 my-2 my-lg-0">
+                        <a class="nav-link btn btn-sm btn-outline-secondary pfont-l w-100" href="#">리마인더 등록하기</a>
+                    </form>
+                </div>
             </nav>
         </div>
     </section>
@@ -30,12 +45,14 @@
             <div class="jumbotron bg-transparent">
                 <div class="container">
                     <div class="md-tb-rl">
-                        <h1 class="display-3 myungjo">스타트업<br>테-크 챌린지</h1>
+                        <h1 class="display-3 myungjo nowarp">스타트업<br>테-크 챌린지</h1>
                         <p class="lead pfont-l">네 번째 기술이야기.</p>
                     </div>
                     <hr class="my-4">
                     <p>서울 강남구 선릉로 428, 18층 (대치동) Wework Seolleung III, 피플펀드컴퍼니<br>2019년 10월 16일 (수) 늦은 7시 시작</p>
-                    <a class="btn btn-lg pfont-l btn-register" href="#" role="button">참가 등록하기</a>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Register">
+                        <a class="btn btn-lg pfont-l btn-register" href="#" role="button">연사 신청하기</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,12 +62,55 @@
             <div class="img-cover middle-bg-1"></div>
         </div>
     </section>
-    <section id="sessions">
+    <section id="overview">
         <div class="container">
             <div class="jumbotron bg-transparent">
                 <h1 class="display-4 myungjo">Overview</h1>
                 <p class="lead pfont-l">스타트업 개발자 모두가 공감할 삽질기</p>
                 <hr class="my-4">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-md-6">
+                            <h3 class="display-4 pfont-l">제목을 기입하는 곳</h3>
+                            <p class="pfont-l">
+                                제2항의 재판관중 3인은 국회에서 선출하는 자를, 3인은 대법원장이 지명하는 자를 임명한다. 국회는 의장 1인과 부의장 2인을
+                                선출한다. 헌법개정안이 제2항의
+                                찬성을 얻은 때에는
+                                헌법개정은 확정되며, 대통령은 즉시 이를 공포하여야 한다. 국가는 노인과 청소년의 복지향상을 위한 정책을 실시할 의무를 진다.
+                            </p>
+
+                            <p class="pfont-b">
+                                국회는 헌법개정안이 공고된 날로부터 60일 이내에 의결하여야 하며, 국회의 의결은 재적의원 3분의 2 이상의 찬성을 얻어야 한다. 국회는
+                                상호원조 또는
+                                안전보장에 관한 조약, 중요한
+                                국제조직에 관한 조약, 우호통상항해조약, 주권의 제약에 관한 조약, 강화조약, 국가나 국민에게 중대한 재정적 부담을 지우는 조약 또는 입법사항에 관한 조약의
+                                체결·비준에 대한
+                                동의권을 가진다.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-cover dummy-image"></div>
+                        </div>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col-md-6">
+                            <h3 class="display-4 pfont-l">타이틀이 들어갑니다</h3>
+                            <ul class="pfont-l">
+
+                                <li>국민의 자유와 권리는 헌법에 열거되지 아니한 이유로 경시되지 아니한다.</li>
+                                <li>모든 국민은 행위시의 법률에 의하여 범죄를 구성하지 아니하는 행위로 소추되지 아니하며, 동일한 범죄에 대하여 거듭 처벌받지 아니한다.</li>
+                                <li>국가의 세입·세출의 결산, 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다.
+                                </li>
+                                <li>각급 선거관리위원회의 조직·직무범위 기타 필요한 사항은 법률로 정한다.</li>
+                                <li>제안된 헌법개정안은 대통령이 20일 이상의 기간 이를 공고하여야 한다.</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="img-cover dummy-image"></div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -176,6 +236,8 @@
 
         </div>
     </section>
+    <script src="./js/bootstrap/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
