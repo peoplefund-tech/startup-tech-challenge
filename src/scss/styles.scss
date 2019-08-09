@@ -13,6 +13,7 @@
 .md-tb-rl {
     @media screen and (max-width: 768px) {
         writing-mode: tb-rl;
+        margin-left: auto;
         & h1 {
             margin: 0;
         }
