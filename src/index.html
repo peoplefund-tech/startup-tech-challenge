@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <section id="top" class="fixed-top bg-white">
+    <section id="top" class="fixed-top bg-peoplefund text-white">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="https://tech.peoplefund.co.kr">
                     <span class="pfont-b">peoplefund</span>
                     <span class="pfont-l">tech</span>
@@ -25,17 +25,17 @@
                 <div class="collapse navbar-collapse" id="navbar-nav">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#overview">'스테챌'이란?</a>
+                            <a class="nav-link" href="#overview">4th 스테챌</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#sessions">Sessions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#open-info">언제, 어디서?</a>
+                            <a class="nav-link" href="#open-information">언제? 어디서?</a>
                         </li>
                     </ul>
                     <form class="form-inline ml-md-2 my-2 my-lg-0">
-                        <a class="nav-link btn btn-sm btn-register pfont-l w-100" href="#">참가 등록하기</a>
+                        <a class="nav-link btn btn-sm btn-nav-register pfont-l w-100" href="#">참가 등록하기</a>
                     </form>
                 </div>
             </nav>
@@ -73,7 +73,7 @@
     <section id="overview">
         <div class="container">
             <div class="jumbotron bg-transparent">
-                <h1 class="display-4 myungjo">'스테챌'이란?</h1>
+                <h1 class="display-4 myungjo">4th 스테챌</h1>
                 <p class="lead pfont-l">스타트업 개발자 모두가 공감할 삽질기</p>
                 <hr class="my-4">
                 <div class="container">
@@ -145,8 +145,8 @@
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1 myungjo">
                                 <span class="align-middle">1. </span>
-                                <div class="btn-group btn-group-sm" role="group">
-                                    <a class="btn pfont-l btn-register" href="#speaker-recruitment" role="button">
+                                <div id="btn-speaker-recruitment" class="btn-group btn-group-sm" role="group">
+                                    <a class="btn pfont-l btn-secondary" href="#speaker-recruitment" role="button">
                                         이 세션을 빛내주세요!
                                     </a>
                                 </div>
@@ -191,47 +191,26 @@
             <div class="img-cover middle-bg-2"></div>
         </div>
     </section>
-    <section id="events">
+    <section id="open-information">
         <div class="container">
             <div class="jumbotron bg-transparent">
-                <h1 class="display-4 myungjo">언제, 어디서?</h1>
-                <p class="lead pfont-l">여러 흥미진진한 이벤트가 준비되어 있습니다.</p>
-                <hr class="my-4">
-                <ul class="list-group">
-                    <li class="list-group-item border-0 list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1 myungjo">0. Registration & Dinner</h5>
-                            <small class="text-muted nowarp">늦은 7시</small>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 bg-light">
+                            <h1 class="display-3 pfont-b">10월 8일<br>오후 7시</h1>
                         </div>
-                    </li>
-                    <li class="list-group-item border-0 list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1 myungjo">1. 합격하는 개발자 이력서, 따로 있다.</h5>
-                            <small class="text-muted nowarp">늦은 7시 반</small>
+                        <div class="col-md-6 img-cover bg-wework-seolleung-3">
+                            <h1 class="display-3 pfont-b text-white">Wework<br>선릉III<br>18층</h1>
                         </div>
-                        <small class="text-muted pfont-b">강대성 | Tech Advisor of PeopleFund</small>
-                    </li>
-                    <li class="list-group-item border-0 list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1 myungjo">2. Scraping in Production</h5>
-                            <small class="text-muted nowarp">늦은 8시</small>
+                    </div>
+                    <div class="row">
+                        <div class="col img-cover bg-wework-seolleung-3-map">
+                            <h1 class="display-3 pfont-b text-white">
+                                <span class="bg-dark">선릉역<br>2번출구</span>
+                            </h1>
                         </div>
-                        <small class="text-muted pfont-b">구영민 | Back-end Developer of PeopleFund</small>
-                    </li>
-                    <li class="list-group-item border-0 list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1 myungjo">3. Python &hearts; Rust</h5>
-                            <small class="text-muted nowarp">늦은 8시 반</small>
-                        </div>
-                        <small class="text-muted pfont-b">김동건 | Back-end Developer of PeopleFund</small>
-                    </li>
-                    <li class="list-group-item border-0 list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1 myungjo">4. QnA</h5>
-                            <small class="text-muted nowarp">늦은 9시</small>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -243,7 +222,7 @@
                         <a class="navbar-brand text-dark" href="https://peoplefund.co.kr">
                             <img src="./resources/images/logo-pf.svg" width="150" height="50">
                         </a>
-                        <p><span class="pfont-b">보통 사람을 위한 보통이 아닌</span> 금융을 만들어갑니다.</p>     
+                        <p><span class="pfont-b">보통 사람을 위한 보통이 아닌 금융</span>을 만들어갑니다.</p>     
                     </div>
                     <hr class="clearfix w-100 d-md-none pb-3">
                     <div class="ml-auto mr-auto pfont-b mt-md-3">
