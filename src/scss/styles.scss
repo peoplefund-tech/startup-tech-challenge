@@ -30,14 +30,6 @@
 
 .btn-register {
     color: #fff;
-    background: linear-gradient(102deg,#3c9bff,#407dfe);
-    &:hover {
-        color: #fff;
-    }
-}
-
-.btn-nav-register {
-    color: #fff;
     background: #3077e2;
     &:hover {
         color: #fff;
@@ -47,13 +39,9 @@
 
 .bg-peoplefund {
     color: #fff;
-    background: linear-gradient(102deg, #3c9bff, #407dfe);
+    background: linear-gradient(90deg, #3c9bff, #407dfe);
 }
 
-#header {
-    margin-top: 70px;
-}
-
-#btn-speaker-recruitment {
-    width: 180px;
+#page-top {
+    margin-top: 56px;
 }
