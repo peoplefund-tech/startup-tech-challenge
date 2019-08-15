@@ -11,30 +11,31 @@
 </head>
 
 <body>
-    <section id="top">
+    <section id="top" class="fixed-top bg-white">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="https://tech.peoplefund.co.kr">
-                    <img src="./resources/images/logo-pf.svg" width="150" height="50">
+                    <span class="pfont-b">peoplefund</span>
+                    <span class="pfont-l">tech</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbar-nav">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#overview">Overview</a>
+                            <a class="nav-link" href="#overview">'스테챌'이란?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#sessions">Sessions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#events">Events</a>
+                            <a class="nav-link" href="#open-info">언제, 어디서?</a>
                         </li>
                     </ul>
                     <form class="form-inline ml-md-2 my-2 my-lg-0">
-                        <a class="nav-link btn btn-sm btn-outline-secondary pfont-l w-100" href="#">리마인더 등록하기</a>
+                        <a class="nav-link btn btn-sm btn-register pfont-l w-100" href="#">참가 등록하기</a>
                     </form>
                 </div>
             </nav>
@@ -51,7 +52,7 @@
                     <hr class="my-4">
                     <p>서울 강남구 선릉로 428, 18층 (대치동) Wework Seolleung III, 피플펀드컴퍼니<br>2019년 10월 16일 (수) 늦은 7시 시작</p>
                     <div class="btn-group btn-group-lg" role="group" aria-label="Register">
-                        <a class="btn btn-lg pfont-l btn-register" href="#" role="button">연사 신청하기</a>
+                        <a class="btn btn-lg pfont-l btn-register" href="#" role="button">참가 등록하기</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +73,7 @@
     <section id="overview">
         <div class="container">
             <div class="jumbotron bg-transparent">
-                <h1 class="display-4 myungjo">Overview</h1>
+                <h1 class="display-4 myungjo">'스테챌'이란?</h1>
                 <p class="lead pfont-l">스타트업 개발자 모두가 공감할 삽질기</p>
                 <hr class="my-4">
                 <div class="container">
@@ -193,7 +194,7 @@
     <section id="events">
         <div class="container">
             <div class="jumbotron bg-transparent">
-                <h1 class="display-4 myungjo">Events</h1>
+                <h1 class="display-4 myungjo">언제, 어디서?</h1>
                 <p class="lead pfont-l">여러 흥미진진한 이벤트가 준비되어 있습니다.</p>
                 <hr class="my-4">
                 <ul class="list-group">
@@ -235,9 +236,39 @@
         </div>
     </section>
     <section id="footer">
-        <div class="container-fiuld">
+        <footer class="page-footer font-small bg-light text-dark pfont-l">
+            <div class="container text-center text-md-left">
+                <div class="row py-5">
+                    <div class="col-md-6 mt-md-0">
+                        <a class="navbar-brand text-dark" href="https://peoplefund.co.kr">
+                            <img src="./resources/images/logo-pf.svg" width="150" height="50">
+                        </a>
+                        <p><span class="pfont-b">보통 사람을 위한 보통이 아닌</span> 금융을 만들어갑니다.</p>     
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="ml-auto mr-auto pfont-b mt-md-3">
+                        <ul class="list-unstyled list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://peoplefund.co.kr" class="text-dark">홈페이지</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://peoplefund.co.kr/team" class="text-dark">회사소개</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://peoplefund.co.kr/recruit" class="text-dark">채용</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://tech.peoplefund.co.kr" class="text-dark">기술블로그</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-        </div>
+            <div class="footer-copyright text-center py-3 bg-peoplefund">© 2019 Copyright reserved by 
+                <a href="https://peoplefund.co.kr" class="text-white pfont-b">peoplefund.co.kr</a>
+            </div>
+        </footer>
     </section>
     <script src="./js/bootstrap/jquery.slim.min.js"></script>
     <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
