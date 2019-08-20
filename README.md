@@ -1,22 +1,6 @@
 # startup-tech-challenge
 
-## Install
+## Links
 
-```
-$ yarn
-```
-
-## Start
-
-```
-$ yarn start
-```
-
-## Build
-
-```
-$ yarn build
-
-# Clean dist files.
-$ yarn clean
-```
+* https://startup-tech-challenge.com
+* https://peoplefund-tech.github.io/startup-tech-challenge
