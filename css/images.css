@@ -18,25 +18,22 @@
     background-image: url(../resources/images/startup-tech-challenge-2nd.jpg);
     width: 100%;
     height: 480px;
-    @media screen and (max-width: 768px) {
-        height: 240px;
-    }
 }
 
 .middle-bg-2 {
     background-image: url(../resources/images/startup-tech-challenge-3rd.jpg);
     width: 100%;
     height: 480px;
-    @media screen and (max-width: 768px) {
-        height: 240px;
-    }
 }
 
 .middle-bg-0 {
     background-image: url(../resources/images/startup-tech-challenge-3rd-2.jpg);
     width: 100%;
     height: 480px;
-    @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
+    .middle-bg-0, .middle-bg-1, .middle-bg-2 {
         height: 240px;
     }
 }

@@ -10,13 +10,13 @@
     font-family: 'peoplefont_b';
 }
 
-.md-tb-rl {
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .md-tb-rl {
         writing-mode: tb-rl;
         margin-left: auto;
-        & h1 {
-            margin: 0;
-        }
+    }
+    .md-tb-rl h1 {
+        margin: 0;
     }
 }
 
@@ -31,10 +31,10 @@
 .btn-register {
     color: #fff;
     background: #3077e2;
-    &:hover {
-        color: #fff;
-        background: #2c68c2;
-    }
+}
+.btn-register:hover {
+    color: #fff;
+    background: #2c68c2;
 }
 
 .bg-peoplefund {
