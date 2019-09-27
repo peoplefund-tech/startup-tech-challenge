@@ -55,3 +55,13 @@
 .jumbotron {
     margin: 0;
 }
+
+.easter-egg {
+    color: #fff;
+    text-decoration: none;
+}
+
+.easter-egg:hover {
+    color: #fff;
+    text-decoration: none;
+}
